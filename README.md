@@ -31,4 +31,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Versions
 
 ```
-1.) Boostrap and Router Installed - 
+1.) Boostrap and Router Installed  - 969b748d47660f3f55763ef16d60a0030a15f840
+ - https://github.com/ktrajasekar/vuejs-examples/tree/vuejs-starter
