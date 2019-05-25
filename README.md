@@ -1,4 +1,4 @@
-# hello
+# VueJS Practical Examples
 
 ## Project setup
 ```
@@ -27,3 +27,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Versions
+
+```
+1.) Boostrap and Router Installed - 
