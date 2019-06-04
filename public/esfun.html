@@ -1,0 +1,62 @@
+<html>
+
+<body>
+    <script>
+        /* Filter ES6 
+
+SYNTAX
+--------------
+array =[]
+let newarray = array.filter(function(item){
+    return condition
+});
+--------------
+
+*/
+        let numbers = [9, 8, 7, 6, 5];
+        /*  ES5 
+        // let newno = numbers.filter(function (value, index, item) {
+        //     console.log("value", value);
+        //     console.log("index", index);
+        //     console.log("item", item);
+        // });
+*/
+//  ES6
+        let number = numbers.filter((item,index) => {
+               if(item==82){
+                   return true;
+               }
+        });
+
+        console.log(number);
+
+
+    const  heroes = [{
+                name: "BatMan",
+                franchise: "TXT"
+            },
+            {
+                name: "Raj",
+                franchise: "TXT"
+            },
+            {
+                name: "sek",
+                franchise: "TXT"
+            },
+            {
+                name: "Pra",
+                franchise: "TXT"
+            },
+        ]
+
+        let newval = heroes.filter(function(item){
+               if(item.name=="Raj"){
+                   return item.franchise;
+               }
+        });
+        // console.log(newval[1]);
+
+    </script>
+</body>
+
+</html>
